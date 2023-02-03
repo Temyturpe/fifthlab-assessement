@@ -6,7 +6,7 @@ import '../assests/style.css'
 const Search = () => {
     return (
         <div className='w-full  sm:mt-10 sm:mb-32 mb-10 md:mb-0 md:mt-32 sm:px-24 md:pl-16'>
-            <h1 className='text-3xl text-white/80 mb-5'> Hello, <span className='text-white font-semibold'>Emerald</span> </h1>
+            <h1 className='text-3xl text-white/80 mb-5 font-pop '> Hello, <span className='text-white font-pop font-thick'>Emerald</span> </h1>
             <p className='text-sm text-white/80 mb-4'>Welcome to your dashboard, kindly sort through the user base</p>
             <form action="" className=''>
                 <div className="search-input bg-white/40 flex items-center gap-3 px-4 py-3 rounded-xl ">
