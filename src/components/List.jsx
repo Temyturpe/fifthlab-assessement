@@ -8,7 +8,7 @@ import '../assests/style.css'
 const List = () => {
     const [value, setValue] = useState(false);
     return (
-        <div className='w-full listside h-full px-2 sm:px-8 pt-20 pb-10 rounded-2xl'>
+        <div className='w-full listside h-full px-2 sm:px-8 pt-20 pb-10 rounded-2xl relative'>
             <h1 className='text-black/80 capitalize font-pop font-semibold text-2xl'>all users</h1>
             <p className='text-sm text-black/80'>Filter by</p>
             <div className="filter-row w-full flex flex-wrap justify-between items-center gap-6 mt-5">

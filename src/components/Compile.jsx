@@ -33,6 +33,7 @@ const Compile = () => {
 
     return (
         <div>
+
             <Posts posts={currentPosts} />
             <Pagination
                 postsPerPage={postsPerPage}
